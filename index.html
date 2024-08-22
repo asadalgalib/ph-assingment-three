@@ -23,9 +23,9 @@
         }
       </style>
 </head>
-<body class="font-manrope px-5 md:px-auto">
+<body class="font-manrope ">
     <!-- header section -->
-    <header class="md:container mx-auto ">
+    <header class="xl:container mx-auto pb-14 md:pb-24 px-5 md:px-8 lg:px-28">
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -46,7 +46,7 @@
                     <a href=""><i class="fa-solid fa-cart-shopping bg-[#ffffff] p-3 mr-4 border-2 rounded-full hidden md:inline"></i></a>
                   <button class="btn hidden md:block bg-[#ABEF5F] hover:bg-[#ABEF5F80] text-lg font-extrabold rounded-3xl">Book Consult
                      <i class="fa-solid fa-arrow-right text-white  bg-[#1C1C1C] p-2 ml-1 rounded-full -rotate-45"></i></button>
-                  <div class="dropdown dropdown-left">
+                  <div class="dropdown dropdown-left ">
                     <div tabindex="0" role="button" class="btn btn-ghost xl:hidden">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +82,7 @@
             </div>
              <!-- header text -->
               <div class="flex flex-col items-center">
-                <h1 class="text-center text-3xl  md:text-6xl font-extrabold mt-6">A barn house of this design has a striking appearance</h1>
+                <h1 class="text-center text-4xl  md:text-6xl font-extrabold mt-6">A barn house of this design has a striking appearance</h1>
                 <p class="mx-auto text-center text-[#494949] text-base font-medium mt-6 max-w-4xl">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood,
                      sleek metal accents, and large windows that flood the space with natural light.</p>
                      <button class="btn mt-6 bg-[#ABEF5F80] hover:bg-[#ABEF5F] text-lg font-extrabold rounded-3xl w-[100%] md:w-auto">View Details
@@ -91,7 +91,53 @@
          </div>
     </header>
     <!-- main section -->
-     <main></main>
+     <main class="xl:container mx-auto">
+      <!-- desing ssection -->
+       <section class="bg-[#F4F4F4]">
+        <!-- desing content-->
+         <div class="p-14 md:pt-24 px-5 md:px-8  lg:px-28 md:py-28 grid grid-cols-1 lg:grid-cols-2 gap-9">
+          <!-- desing text -->
+           <div class="space-y-6">
+            <button class="rounded-3xl bg-[#fff] py-1 px-4 text-base font-bold"><i class="fa-solid fa-arrow-right"></i>About Us</button>
+            <h1 class="text-3xl md:text-5xl font-extrabold text-[#212121]">We design thoughtful,<br> liveable spaces</h1>
+            <p class="text-[#494949] text-base font-medium">The barn house captivates with its blend of rustic charm and 
+              modern sophistication, featuring weathered wood, sleek metal accents.</p>
+              <!-- card -->
+               <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-6">
+                 <!-- card 1 -->
+              <div class="card card-side bg-base-100 shadow-xl px-6">
+                <figure>
+                  <img
+                    src="./assets/commercial.png"
+                    alt="Movie" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title text-xl font-extrabold">Commercial</h2>
+                  <p class="text-[#494949] text-base font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+              </div>
+              <!-- card 2 -->
+              <div class="card card-side bg-base-100 shadow-xl px-6">
+                <figure>
+                  <img 
+                    src="./assets/residential.png"
+                    alt="Movie" />
+                </figure>
+                <div class="card-body ">
+                  <h2 class="card-title text-xl font-extrabold">Residential</h2>
+                  <p class="text-[#494949] text-base font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+              </div>
+               </div>
+           </div>
+           <!-- desing photo -->
+           <div class="flex justify-center items-center">
+            <img src="./assets/Rectangle.png" alt="">
+           </div>
+         </div>
+       </section>
+
+     </main>
      <!-- footer section -->
       <footer></footer>
     
